@@ -1,4 +1,6 @@
 ﻿begin
+  println('Ձեր լեզուն 1)Ռուսերեն, 2)Հայերեն, 3)Անգլերեն');
+  println('Your language? 1)Russian, 2)Armenian, 3)English');
   var ya := readinteger('Ваш язык? 1)русский, 2)армянский, 3)английский');
   if ya = 1 then begin
     var n := readinteger('Введите время: ');
